@@ -2,35 +2,54 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "In k-way associative mapping, if k=1, then it becomes direct mapping",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "True",
+        "b": "False"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "If memory has an access time of 100ns, access time of the cache memory is 40ns with 80% hit ratio, then what is the effective access time of the CPU?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "60ns",
+        "b": "50ns",
+        "c": "90ns",
+        "d": "55ns"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Tag bits in direct mapping (assume, p is number of main memory blocks and q is number of cache blocks)",
+      "answers": {
+        "a": "log(pq)",
+        "b": "logp",
+        "c": "log(p/q)",
+        "d": "None of these"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "How many lines are there in a direct mapped cache having 23-bit tag and 1-word blocks?",
+      "answers": {
+        "a": "512 bytes",
+        "b": "256 bytes",
+        "c": "1024 bytes",
+        "d": "None of these"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Consider a memory system with cache and main memory. The cache is 5 times faster than the main memory, its hit ratio is 80%. If average access time is increased by 20% from 50ns, then will there be any change in hit ratio, if yes, how much?",
+      "answers": {
+        "a": "No change",
+        "b": "Yes, Increase by 20%",
+        "c": "Yes, Decreases by 10%",
+        "d": "None of these"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
